@@ -11,12 +11,10 @@ Our primary customer is someone who exercises or wants to get into exercising, b
 
 ## Technology:
 Our software will be able to store YouTube videos, track a user’s calorie count, offer workout programs, time workouts, and allow the user to keep a journal/notes about their fitness journey. To make these functions a reality our software will consist of databases for storing all the user’s information as well as the various YouTube videos and workout programs, a professional interface for easy navigation and overall use for the user, as well as using API’s from YouTube and other databases to easily retrieve and use their data. The minimal system that would have value to the customer is a functional app that can assist them with fitness related information and activities. Customers may appreciate a possible enhancement such as AI to the app which would be able to suggest meals based on their calorie counter and possibly suggest workouts based on their previous workouts. We will test the software in an emulated android device which can run the app as well as an actual android device for further error checking.
-
 <p align = "center">
   <img src="https://github.com/CS340-21/Fitness_App/blob/main/bd.png">
 </p>
-
-        	We will be using an application known as Android Studio which is specially made for creating android apps. This application will be used to create and implement the software. We can leverage this tool because it has a lot of sub-tools that will allow us to create and test the app, more easily. 
+We will be using an application known as Android Studio which is specially made for creating android apps. This application will be used to create and implement the software. We can leverage this tool because it has a lot of sub-tools that will allow us to create and test the app, more easily. 
 
 ## Team Skills and Roles:
 Most of the team has never created an android application before. That being said, the process of creating and coding the app will be a great opportunity to learn for everyone. We look forward to learning it and what is needed to create an android app.
