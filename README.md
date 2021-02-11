@@ -21,23 +21,33 @@ Most of the team has never created an android application before. That being sai
 Below are the deadlines assigned to and must be completed by us. Between each deadline, we will have zoom meetings on the weekends to ensure that all members are synchronized. There are also goals we would like to have done before each deadline.
 
 2/11 Write and present preliminary project proposal
+	
 	-Learn the basics of android development
 	-Further refine user interface
+
 2/18 Revise project proposal
+
 	-Begin implementing and testing app’s simplest features
 	-Learn basic graphic design and for the app’s aesthetics
 	-Write status report
+
 3/4   Design and implement a minimal viable system. Submit iteration 1 status report
+
 	-Debug code
 	-Implement graphics and aesthetics of app
 	-Write 2nd report
+
 3/18 Iteratively improve minimal viable system. Submit iteration 2 status report
+
 	-Add more advanced features 
 	-Debug code
 	-Write 3rd report
+
 4/1   Iteratively test and refine solution. Submit iteration 3 status report
+
 	-If advanced feature implementation is successful, aesthetics will be added
 	-Write final report and practice project presentation
+
 4/15 Complete project implementation. Write project report and present finished project
 
 CONSTRAINTS - Currently, our largest constraint is our collective lack of app development experience. As for legal constraints, we just need to be sure we are not breaking any copyright laws. Also, we will add a notice saying that this app is an experiment and is no substitute for a certified professional trainer or a healthy lifestyle. This is to prevent any legal ramifications such as charges of fraud.
