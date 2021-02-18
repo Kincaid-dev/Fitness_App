@@ -22,6 +22,7 @@ Most of the team has never created an android application before. That being sai
 
 #### Emory Swanger
  Role: Manager 
+ 
  Skills:
   - C, C++, Java, Python
   - android app development and Leadership experience
@@ -31,6 +32,7 @@ Most of the team has never created an android application before. That being sai
 
 #### William Hannon
  Role: Developer 
+ 
  Skills:
  - C, C++, and linux scripting
  - customer service experience
@@ -41,6 +43,7 @@ Most of the team has never created an android application before. That being sai
  
 #### Kincaid McGee
  Role: Developer 
+ 
  Skills:
  - C, C++, Java, and bash
  - databases experience
