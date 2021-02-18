@@ -55,11 +55,11 @@ Below are the deadlines assigned to and must be completed by us. Between each de
 
 CONSTRAINTS - Currently, our largest constraint is our collective lack of app development experience. As for legal constraints, we just need to be sure we are not breaking any copyright laws. Also, we will add a notice saying that this app is an experiment and is no substitute for a certified professional trainer or a healthy lifestyle. This is to prevent any legal ramifications such as charges of fraud.
 
-RESOURCES -We will gain educational material from youtube, both for us and later storage for users. For nutritional information, we are looking toward datasets offered by google, government resources, and wherever else.
+RESOURCES - We will gain educational material from youtube, both for us and later storage for users. For nutritional information, we are looking toward datasets offered by google, government resources, and wherever else.
 
 DESCOPING - The main educational goal of this project is to help members learn the basics of android app development and version control via GitHub. The most important features we plan on implementing are expected to be very simplistic. More advanced features are not required; they are icing on the cake. Instead of planning on descoping, we plan on starting very small and working our way up. In essence, we are under-promising so that we can overdeliver. The challenge of increasing the general fitness of people is a vast and complex one; one to large for a team of three to solve. Rather, if we can create an app that makes it easier for some to get started on their fitness journey, then we have achieved our goal.
 
-Minimum Viable Product:
+MINIMUM VIABLE SYSTEM: 
 Our minimum viable product will be an Android app written in Java or a similar framework (Dart, Flutter, etc.) that will contain the following features: 
 
  - a timer designed with workouts in mind
