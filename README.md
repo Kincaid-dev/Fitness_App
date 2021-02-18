@@ -20,7 +20,7 @@ We will be using an application known as Android Studio which is specially made 
 Most of the team has never created an android application before. That being said, the process of creating and coding the app will be a great opportunity to learn for everyone. We look forward to learning it and what is needed to create an android app.
         	The roles for the team will be organizing meetings, assigning tasks, creating portions of app, and checking on the status of assigned tasks. The roles will be rotating so we all bear equal responsibility throughout the project.
 
-###### Emory Swanger
+#### Emory Swanger
  Role: Manager
  Skills:
   - C, C++, Java, Python
@@ -29,25 +29,25 @@ Most of the team has never created an android application before. That being sai
   - Create and delegate tasks, Keep up with deadlines
   - Ensure tasks are completed are time
 
-###### William Hannon
-	Role: Developer
-	Skills:
-	- C, C++, and linux scripting
-	- customer service experience
-	Responsibilities:
-	- Design and implement the android application
-	- Test the software
-	- Update the software as needed
-
-###### Kincaid McGee
-	Role: Developer
-	Skills:
-	- C, C++, Java, and bash
-	- databases experience
-	Responsibilities:
-	- Design and implement the android application
-	- Test the application
-	- Update the software as needed
+#### William Hannon
+ Role: Developer
+ Skills:
+ - C, C++, and linux scripting
+ - customer service experience
+ Responsibilities:
+ - Design and implement the android application
+ - Test the software
+ - Update the software as needed
+ 
+#### Kincaid McGee
+ Role: Developer
+ Skills:
+ - C, C++, Java, and bash
+ - databases experience
+ Responsibilities:
+ - Design and implement the android application
+ - Test the application
+ - Update the software as needed
 
 These skills will help the developers learn android development quickly and help to create the app. Our team also has skills in team work, leadership, customer service, and communication. These skills will help our team work together to accomplish tasks and work together to complete this project.
 
