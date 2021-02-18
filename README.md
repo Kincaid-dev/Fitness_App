@@ -21,7 +21,7 @@ Most of the team has never created an android application before. That being sai
         	The roles for the team will be organizing meetings, assigning tasks, creating portions of app, and checking on the status of assigned tasks. The roles will be rotating so we all bear equal responsibility throughout the project.
 
 Emory Swanger
-	Role: Manager
+	>> Role: Manager
 	Skills:
 	- C, C++, Java, Python,
 	- android app development and Leadership experience
