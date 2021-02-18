@@ -20,16 +20,16 @@ We will be using an application known as Android Studio which is specially made 
 Most of the team has never created an android application before. That being said, the process of creating and coding the app will be a great opportunity to learn for everyone. We look forward to learning it and what is needed to create an android app.
         	The roles for the team will be organizing meetings, assigning tasks, creating portions of app, and checking on the status of assigned tasks. The roles will be rotating so we all bear equal responsibility throughout the project.
 
-Emory Swanger
-	+ Role: Manager
-	Skills:
-	- C, C++, Java, Python,
-	- android app development and Leadership experience
-	Responsibilities:
-	- Create and delegate tasks, Keep up with deadlines
-	- Ensure tasks are completed are time
+######Emory Swanger
+Role: Manager
+Skills:
+ - C, C++, Java, Python
+ - android app development and Leadership experience
+Responsibilities:
+ - Create and delegate tasks, Keep up with deadlines
+ - Ensure tasks are completed are time
 
-William Hannon
+######William Hannon
 	Role: Developer
 	Skills:
 	- C, C++, and linux scripting
@@ -39,7 +39,7 @@ William Hannon
 	- Test the software
 	- Update the software as needed
 
-Kincaid McGee
+######Kincaid McGee
 	Role: Developer
 	Skills:
 	- C, C++, Java, and bash
