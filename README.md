@@ -58,3 +58,14 @@ CONSTRAINTS - Currently, our largest constraint is our collective lack of app de
 RESOURCES -We will gain educational material from youtube, both for us and later storage for users. For nutritional information, we are looking toward datasets offered by google, government resources, and wherever else.
 
 DESCOPING - The main educational goal of this project is to help members learn the basics of android app development and version control via GitHub. The most important features we plan on implementing are expected to be very simplistic. More advanced features are not required; they are icing on the cake. Instead of planning on descoping, we plan on starting very small and working our way up. In essence, we are under-promising so that we can overdeliver. The challenge of increasing the general fitness of people is a vast and complex one; one to large for a team of three to solve. Rather, if we can create an app that makes it easier for some to get started on their fitness journey, then we have achieved our goal.
+
+Minimum Viable Product:
+Our minimum viable product will be an Android app written in Java or a similar framework (Dart, Flutter, etc.) that will contain the following features: 
+
+ - a timer designed with workouts in mind
+ - a mechanism for saving YouTube video links
+ - a calculator for caloric intake
+ - a journal for organizing exercise routines
+
+The app will be minimalist not only through its feature set, but also through its visuals and user interface. What assets there are will likely be simple vector drawings and the different modules will be accessible via an elementary list menu.
+
