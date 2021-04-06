@@ -104,3 +104,4 @@ Our minimum viable product will be an Android app written in Java or a similar f
 
 The app will be minimalist not only through its feature set, but also through its visuals and user interface. What assets there are will likely be simple vector drawings and the different modules will be accessible via an elementary list menu.
 
+# junk
