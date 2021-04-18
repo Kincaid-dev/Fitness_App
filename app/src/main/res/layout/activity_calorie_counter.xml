@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalorieCounter">
+
+    <EditText
+        android:id="@+id/Meal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/meal"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toStartOf="@+id/Calorie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/Calorie"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/calories"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/saveButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Meal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="54dp"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Meal" />
+
+    <TextView
+        android:id="@+id/ColorText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/meals"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/CalorieList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveButton" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CalorieList"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/totalCalories"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ColorText" />
+
+    <TextView
+        android:id="@+id/totalCalories"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:text="@string/total"
+        android:textAlignment="textEnd"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/CalorieCount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CalorieList" />
+
+    <TextView
+        android:id="@+id/CalorieCount"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="47dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CalorieList" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="47dp"
+        android:text="@string/reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalCalories" />
+
+    <ImageButton
+        android:id="@+id/homeButtonCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

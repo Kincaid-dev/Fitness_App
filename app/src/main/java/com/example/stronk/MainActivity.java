@@ -1,5 +1,6 @@
 package com.example.stronk;
 
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             item3.setTextColor(def);
             item4.setTextColor(def);
         } else if (view.getId() == R.id.item2){
+            startActivity(new Intent(MainActivity.this, YTSaver.class));
             item1.setTextColor(def);
             item2.setTextColor(Color.WHITE);
             item3.setTextColor(def);
@@ -60,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int size = item2.getWidth();
             select.animate().x(size).setDuration(100);
         } else if (view.getId() == R.id.item3){
+            startActivity(new Intent(MainActivity.this, CalorieCounter.class));
             item1.setTextColor(def);
             item3.setTextColor(Color.WHITE);
             item2.setTextColor(def);
