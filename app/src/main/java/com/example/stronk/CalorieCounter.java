@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -63,15 +64,23 @@ public class CalorieCounter extends AppCompatActivity {
                mealNameString = mealName.getText().toString();
                calorieText = (EditText)findViewById(R.id.Calorie);
                CalString = calorieText.getText().toString();
-//               calorie = Integer.parseInt(CalString);
+               if (CalString.equals("") || Integer.parseInt(CalString) <= 0) {
+                   Toast.makeText(getApplication(),"ERROR: Calories must be greater than 0", Toast.LENGTH_LONG).show();
+               }
+               else {
+                   if (mealNameString.equals("")) {
+                       Toast.makeText(getApplication(),"ERROR: Must input meal name", Toast.LENGTH_LONG).show();
+                   }
+                   else {
+                       keysArray.add(mealNameString);
+                       editor.putString(mealNameString, CalString);
+                       editor.apply();
+                       adapter.notifyDataSetChanged();
 
-               keysArray.add(mealNameString);
-               editor.putString(mealNameString, CalString);
-               editor.apply();
-               adapter.notifyDataSetChanged();
-
-               totalCalories += Integer.parseInt(CalString);
-                totalCal.setText(String.valueOf(totalCalories));
+                       totalCalories += Integer.parseInt(CalString);
+                       totalCal.setText(String.valueOf(totalCalories));
+                   }
+               }
            }
         });
 
